@@ -1,5 +1,5 @@
 name: BYU-Idaho Front-End Framework
-destination: ./../master-framework
+destination: ./../generated-framework
 markdown: redcarpet
 pygments: true
 exclude: ['deprecated', 'documentation', 'LESS', 'css/LESS', 'css/LESS/', 'css/LESS/*']
