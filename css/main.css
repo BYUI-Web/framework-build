@@ -1347,226 +1347,31 @@ nav li {
   margin-bottom: 0;
 }
 /******** FOOTER ********/
-#footer_graphic {
-  background: url('../images/foot/background_1.png') repeat-x;
-  clear: both;
-}
-#footer_graphic div {
-  background: url('../images/foot/taylor_graphic.png') no-repeat center;
-  height: 146px;
-}
-.footer_graphic {
-  background-image: url('../images/interface/mid_bg.png');
-  background-repeat: repeat-x;
-  background-position: 0 -5px;
-  height: 146px;
-}
-.footer_graphic #footer_graphic {
-  margin-bottom: 0;
-  padding: 0;
-}
-/**** footer navigation ***/.footer_nav {
-  background-color: #326ba9;
-  height: 78px;
-}
-#footer_nav #audience_nav_box_bottom ul {
-  padding-top: 24px;
-  padding-left: 0;
-  margin: 0;
-}
-#search_box_bottom {
-  display: none;
-}
-#secondary_nav {
-  margin: 20px 0;
-  padding-left: 0;
-}
-#secondary_nav ul {
-  float: right;
-  margin: 0;
-  padding: 0;
-}
-#secondary_nav li {
-  border-right: solid 1.5px #999;
-}
-/**** quicklink area ****/
-.footer_links_container {
-  background: #333333;
-}
-.footer_links_container #footer_links_container {
-  background: transparent;
-  clear: both;
-}
-#footer_links {
-  overflow: hidden;
-}
-#footer_links ul {
-  margin: 0 0 30px 15px;
-  padding: 0 10px 0 0;
-}
-.link_list {
-  background-color: #252525;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  margin: 10px 10px -500px 0;
-  font-size: 12px;
-  padding: 15px 0 500px 0;
-}
-.link_list ul {
-  height: 100%;
-}
-.link_list li {
-  color: #b7b7b7;
-  background: url('../images/foot/footer_sprite.png') no-repeat;
-  background-position: -532px 6px;
-  padding: 6px 0 6px 25px;
-}
-.link_list li:hover {
-  background-position: -532px -52px;
-}
-#footer_links .link_list a {
-  color: #b7b7b7;
-  display: block;
-}
-#footer_links .link_list a:hover {
-  color: #FFF;
+.global-footer a {
+  color: #fff;
   text-decoration: underline;
 }
-#footer_links h4 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: .5px;
-  font-weight: bold;
-  color: #FFF;
-  padding-left: 15px;
+.global-footer a:hover {
+  text-decoration: none;
 }
-/**** branding area ****/
-#footer_brand {
-  color: #646464;
-  font-size: 11px;
-  background-color: #000;
-  padding-top: 22px;
-  padding-bottom: 20px;
-  overflow: hidden;
+.global-footer a.btn {
+  text-decoration: none;
 }
-.footer_brand {
-  background: #000000;
-  min-height: 187px;
-}
-#left_container div a {
-  float: left;
-  position: relative;
-  top: 10px;
-  text-indent: -1000px;
+.church-branding {
+  padding: 40px;
 }
 #lds_church_link {
   background: url('../images/foot/footer_sprite.png') no-repeat;
-  background-position: 0px -40px;
+  background-position: 0 -40px;
   height: 75px;
   width: 188px;
-  border-right: 1px solid #5c5d5d;
-}
-#byu_link {
-  background: url('../images/foot/footer_sprite.png') no-repeat;
-  background-position: -200px -40px;
-  height: 45px;
-  width: 100px;
-  left: 10px;
-}
-#byuh_link {
-  background: url('../images/foot/footer_sprite.png') no-repeat;
-  background-position: -305px -40px;
-  height: 65px;
-  width: 100px;
-  left: 10px;
-}
-#ldsbc_link {
-  background: url('../images/foot/footer_sprite.png') no-repeat;
-  background-position: -400px -40px;
-  height: 75px;
-  width: 100px;
-  left: 10px;
+  overflow: hidden;
+  display: block;
+  text-indent: -9999px;
+  margin: 0 auto;
 }
 #lds_church_link:hover {
-  background: url('../images/foot/footer_sprite.png') no-repeat;
   background-position: 0 -116px;
-}
-#byu_link:hover {
-  background: url('../images/foot/footer_sprite.png') no-repeat;
-  background-position: -200px -116px;
-}
-#byuh_link:hover {
-  background: url('../images/foot/footer_sprite.png') no-repeat;
-  background-position: -305px -116px;
-}
-#ldsbc_link:hover {
-  background: url('../images/foot/footer_sprite.png') no-repeat;
-  background-position: -400px -116px;
-}
-#social_icons {
-  background: url('../images/foot/footer_sprite.png') no-repeat;
-  background-position: -2px 0px;
-  height: 40px;
-  margin-bottom: 15px;
-  overflow: hidden;
-}
-#social_icons a {
-  float: left;
-  position: relative;
-  top: 0px;
-  text-indent: -1000px;
-}
-#byui_facebook_link {
-  height: 40px;
-  width: 36px;
-  left: 0px;
-}
-#byui_youtube_link {
-  height: 40px;
-  width: 41px;
-  left: 1px;
-}
-#byui_email_link {
-  height: 40px;
-  width: 41px;
-  left: 2px;
-}
-#byui_linkedIn_link {
-  height: 40px;
-  width: 41px;
-  left: 2px;
-}
-#access_links {
-  background: #000000 url('../images/foot/footer_sprite.png') no-repeat;
-  background-repeat: no-repeat;
-  background-position: -527px -116px;
-  height: 22px;
-  padding-top: 2px;
-  padding-left: 30px;
-}
-#access_links ul {
-  padding: 0;
-  margin: 0;
-}
-#access_links li {
-  padding-right: 8px;
-  padding-left: 8px;
-  border-right: solid 1px #666;
-  display: inline;
-}
-#access_links li a {
-  color: #b7b7b7;
-  font-size: 11px;
-}
-#bottom_padding {
-  background: #333333;
-  height: 10px;
-}
-.last {
-  border-right: none;
-  margin-right: 0;
 }
 /******** END FOOTER ********/
 /**************** END GLOBAL CSS RULES [HEADER/FOOTER] ******************/

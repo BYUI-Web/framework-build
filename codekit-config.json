@@ -220,15 +220,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/deprecated\/body_copy_pages\/about_region\/about_region.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/deprecated\/body_copy_pages\/about_region\/about_region.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/js\/mylibs\/browser_notification.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -239,6 +230,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/mylibs\/browser_notification-ck.js",
       "fileType" : 64
+    },
+    "\/deprecated\/body_copy_pages\/about_region\/about_region.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/deprecated\/body_copy_pages\/about_region\/about_region.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/deprecated\/component_html_examples\/time-line\/css\/blueprint\/screen.css" : {
       "ignoreWasSetByUser" : 0,
@@ -2025,23 +2025,6 @@
       "initialSize" : 663,
       "fileType" : 8192
     },
-    "\/deprecated\/body_copy_pages\/info_pages\/info_pages.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/deprecated\/body_copy_pages\/info_pages\/info_pages.less",
-      "outputAbbreviatedPath" : "\/deprecated\/body_copy_pages\/css\/info_pages.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 1,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/css\/LESS\/section_index.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/css\/LESS\/section_index.less",
@@ -2052,6 +2035,23 @@
       "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/deprecated\/body_copy_pages\/info_pages\/info_pages.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/deprecated\/body_copy_pages\/info_pages\/info_pages.less",
+      "outputAbbreviatedPath" : "\/deprecated\/body_copy_pages\/css\/info_pages.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 1,
       "shouldRunBless" : 0,
       "hidden" : 0,
       "strictMath" : 0,
@@ -2360,6 +2360,15 @@
       "initialSize" : 9465,
       "fileType" : 4096
     },
+    "\/deprecated\/body_copy_pages\/two_pillar\/two_pillar.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/deprecated\/body_copy_pages\/two_pillar\/two_pillar.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/css\/LESS\/variables.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/css\/LESS\/variables.less",
@@ -2376,15 +2385,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/deprecated\/body_copy_pages\/two_pillar\/two_pillar.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/deprecated\/body_copy_pages\/two_pillar\/two_pillar.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/images\/byui_home\/top_text_arrow_left.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2460,21 +2460,21 @@
       "initialSize" : 2943,
       "fileType" : 8192
     },
-    "\/components\/image_gallery_responsive.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/image_gallery_responsive.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/templates\/academic_home.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/academic_home.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/components\/image_gallery_responsive.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/image_gallery_responsive.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2696,17 +2696,6 @@
       "initialSize" : 2639,
       "fileType" : 4096
     },
-    "\/js\/libs\/jquery.elastislide.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery.elastislide.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery.elastislide-ck.js",
-      "fileType" : 64
-    },
     "\/js\/libs\/jquery-ui-1.8.24.custom.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -2716,6 +2705,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-ui-1.8.24.custom.min-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery.elastislide.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery.elastislide.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery.elastislide-ck.js",
       "fileType" : 64
     },
     "\/images\/academic_home\/email_button.png" : {
@@ -2746,6 +2746,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/prototypes\/responsive_test.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/prototypes\/responsive_test.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/libs\/modernizr-2.0.6.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -2756,15 +2765,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/libs\/modernizr-2.0.6.min-ck.js",
       "fileType" : 64
-    },
-    "\/prototypes\/responsive_test.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/prototypes\/responsive_test.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/deprecated\/CSS Slideout_files\/feedback-button.png" : {
       "ignoreWasSetByUser" : 0,
