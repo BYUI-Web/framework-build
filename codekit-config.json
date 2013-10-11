@@ -91,35 +91,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/templates\/article.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/article.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/images\/message_arrow_hover.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/message_arrow_hover.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/message_arrow_hover.png",
-      "initialSize" : 2030,
-      "fileType" : 8192
-    },
-    "\/templates\/admin_home.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/admin_home.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/css\/LESS\/az_index.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/css\/LESS\/az_index.less",
@@ -136,6 +107,35 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/images\/message_arrow_hover.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/message_arrow_hover.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/message_arrow_hover.png",
+      "initialSize" : 2030,
+      "fileType" : 8192
+    },
+    "\/templates\/article.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/article.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/templates\/admin_home.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/admin_home.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/deprecated\/component_html_examples\/time-line\/css\/blueprint\/src\/forms.css" : {
       "ignoreWasSetByUser" : 0,
@@ -2874,17 +2874,6 @@
       "initialSize" : 5918,
       "fileType" : 4096
     },
-    "\/images\/byui_home\/univ_message_photo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/byui_home\/univ_message_photo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/byui_home\/univ_message_photo.png",
-      "initialSize" : 165975,
-      "fileType" : 8192
-    },
     "\/css\/LESS\/print.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/css\/LESS\/print.less",
@@ -2901,6 +2890,17 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/images\/byui_home\/univ_message_photo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/byui_home\/univ_message_photo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/byui_home\/univ_message_photo.png",
+      "initialSize" : 165975,
+      "fileType" : 8192
     },
     "\/images\/head\/blankimg.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3556,14 +3556,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/deprecated\/body_copy_pages\/two_pillar\/two_pillar.html" : {
+    "\/images\/byui_home\/center_pillar_box.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/deprecated\/body_copy_pages\/two_pillar\/two_pillar.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/images\/byui_home\/center_pillar_box.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/byui_home\/center_pillar_box.png",
+      "initialSize" : 8739,
+      "fileType" : 8192
     },
     "\/deprecated\/enhanced_body_copy_area_template.html" : {
       "ignoreWasSetByUser" : 0,
@@ -3605,16 +3607,14 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery.easing.1.3-ck.js",
       "fileType" : 64
     },
-    "\/images\/byui_home\/center_pillar_box.png" : {
+    "\/deprecated\/body_copy_pages\/two_pillar\/two_pillar.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/byui_home\/center_pillar_box.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/byui_home\/center_pillar_box.png",
-      "initialSize" : 8739,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/deprecated\/body_copy_pages\/two_pillar\/two_pillar.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/deprecated\/body_copy_pages\/about_region\/images\/learn_more_button.png" : {
       "ignoreWasSetByUser" : 0,
