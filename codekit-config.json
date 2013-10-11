@@ -91,6 +91,35 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/templates\/article.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/article.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/message_arrow_hover.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/message_arrow_hover.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/message_arrow_hover.png",
+      "initialSize" : 2030,
+      "fileType" : 8192
+    },
+    "\/templates\/admin_home.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/admin_home.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/css\/LESS\/az_index.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/css\/LESS\/az_index.less",
@@ -107,35 +136,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/images\/message_arrow_hover.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/message_arrow_hover.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/message_arrow_hover.png",
-      "initialSize" : 2030,
-      "fileType" : 8192
-    },
-    "\/templates\/article.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/article.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/templates\/admin_home.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/admin_home.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/deprecated\/component_html_examples\/time-line\/css\/blueprint\/src\/forms.css" : {
       "ignoreWasSetByUser" : 0,
@@ -185,23 +185,6 @@
       "inputAbbreviatedPath" : "\/deprecated\/body_copy_pages\/about_history\/about_history.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/css\/LESS\/icon_fonts.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/css\/LESS\/icon_fonts.less",
-      "outputAbbreviatedPath" : "\/css\/css\/icon_fonts.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
     },
     "\/css\/LESS\/event.less" : {
       "ieCompatibility" : 1,
@@ -1983,6 +1966,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/images\/facebook-icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/facebook-icon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/facebook-icon.png",
+      "initialSize" : 3249,
+      "fileType" : 8192
+    },
     "\/css\/image_gallery\/galleriffic-4.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2025,23 +2019,6 @@
       "initialSize" : 663,
       "fileType" : 8192
     },
-    "\/css\/LESS\/section_index.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/css\/LESS\/section_index.less",
-      "outputAbbreviatedPath" : "\/css\/css\/section_index.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/deprecated\/body_copy_pages\/info_pages\/info_pages.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/deprecated\/body_copy_pages\/info_pages\/info_pages.less",
@@ -2052,6 +2029,23 @@
       "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 1,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/css\/LESS\/section_index.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/css\/LESS\/section_index.less",
+      "outputAbbreviatedPath" : "\/css\/css\/section_index.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
       "hidden" : 0,
       "strictMath" : 0,
@@ -2203,15 +2197,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/css\/LESS\/main.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/LESS\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/images\/interface\/buttonbackground.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2369,6 +2354,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/images\/linkedin-icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/linkedin-icon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/linkedin-icon.png",
+      "initialSize" : 3356,
+      "fileType" : 8192
+    },
     "\/css\/LESS\/variables.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/css\/LESS\/variables.less",
@@ -2460,21 +2456,21 @@
       "initialSize" : 2943,
       "fileType" : 8192
     },
-    "\/templates\/academic_home.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/academic_home.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/components\/image_gallery_responsive.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/components\/image_gallery_responsive.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/templates\/academic_home.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/academic_home.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2696,17 +2692,6 @@
       "initialSize" : 2639,
       "fileType" : 4096
     },
-    "\/js\/libs\/jquery-ui-1.8.24.custom.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-ui-1.8.24.custom.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-ui-1.8.24.custom.min-ck.js",
-      "fileType" : 64
-    },
     "\/js\/libs\/jquery.elastislide.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -2716,6 +2701,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery.elastislide-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-ui-1.8.24.custom.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-ui-1.8.24.custom.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-ui-1.8.24.custom.min-ck.js",
       "fileType" : 64
     },
     "\/images\/academic_home\/email_button.png" : {
@@ -2834,6 +2830,17 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/images\/twitter-icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/twitter-icon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/twitter-icon.png",
+      "initialSize" : 3769,
+      "fileType" : 8192
+    },
     "\/images\/rss-32x32.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2867,6 +2874,17 @@
       "initialSize" : 5918,
       "fileType" : 4096
     },
+    "\/images\/byui_home\/univ_message_photo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/byui_home\/univ_message_photo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/byui_home\/univ_message_photo.png",
+      "initialSize" : 165975,
+      "fileType" : 8192
+    },
     "\/css\/LESS\/print.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/css\/LESS\/print.less",
@@ -2883,17 +2901,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/images\/byui_home\/univ_message_photo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/byui_home\/univ_message_photo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/byui_home\/univ_message_photo.png",
-      "initialSize" : 165975,
-      "fileType" : 8192
     },
     "\/images\/head\/blankimg.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3397,15 +3404,6 @@
       "outputAbbreviatedPath" : "\/images\/flag2.png",
       "initialSize" : 8414,
       "fileType" : 8192
-    },
-    "\/css\/LESS\/icon_fonts.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/LESS\/icon_fonts.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/css\/LESS\/employee_individual.less" : {
       "ieCompatibility" : 1,
@@ -4238,6 +4236,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/mylibs\/audience-ck.js",
       "fileType" : 64
+    },
+    "\/images\/youtube-icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/youtube-icon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/youtube-icon.png",
+      "initialSize" : 4393,
+      "fileType" : 8192
     },
     "\/images\/academic_home\/test_ad.jpg" : {
       "ignoreWasSetByUser" : 0,
