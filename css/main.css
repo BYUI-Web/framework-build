@@ -1412,6 +1412,15 @@ nav li {
 }
 .jumbotron.homepage-jumbotron {
   margin-bottom: 0;
+  position: relative;
+}
+.jumbotron.homepage-jumbotron .site-logo {
+  color: #fff;
+  font-size: 75px;
+  position: relative;
+  top: -14px;
+  left: -18px;
+  margin-bottom: -26px;
 }
 /******** FOOTER ********/
 .global-footer a {

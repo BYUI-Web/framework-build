@@ -49,12 +49,15 @@
 
 <body id="{{ page.page-type }}"><!-- Body tag must have page template name in it to inherit template-specific css rules -->
 <header role="banner" class="global-header">
-	<nav role="navigation" class="site-navigation navbar navbar-inverse">
+  <nav role="navigation" class="site-navigation navbar navbar-inverse">
       <div class="container">
         <div class="">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a href="#administrative" class="administrative" class="dropdown-toggle" data-toggle="dropdown"><span aria-hidden="true" class="icon icon-library">&nbsp;&nbsp;</span>University <b class="caret"></b></a>
+              <a href="#administrative" class="administrative dropdown-toggle" data-toggle="dropdown">
+                  <span aria-hidden="true" class="icon icon-library">&#x20;&#x20;</span>
+                  University <b class="caret"></b>
+                </a>
               <ul class="dropdown-menu">
                 <li><a href="http://www.byui.edu/about/">About BYUI</a></li>
                 <li><a href="http://www.byui.edu/contact-us/">Contact</a></li>
@@ -68,7 +71,10 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#academic" class="dropdown-toggle" data-toggle="dropdown"><span aria-hidden="true" class="icon icon-books">&nbsp;&nbsp;</span>Academics <b class="caret"></b></a>
+              <a href="#academic" class="dropdown-toggle" data-toggle="dropdown">
+                <span aria-hidden="true" class="icon icon-books">&#x20;&#x20;</span>
+                Academics <b class="caret"></b>
+              </a>
               <ul class="dropdown-menu">
                 <li><a href="http://www.byui.edu/about/defining-aspects/learning-model">Learning Model</a></li>
                 <li><a href="http://www.byui.edu/student-records/academic-deadlines">Academic Schedule</a></li>
@@ -82,7 +88,10 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#student-life" class="dropdown-toggle" data-toggle="dropdown"><span aria-hidden="true" class="icon icon-food">&nbsp;&nbsp;</span>Living <b class="caret"></b></a>
+              <a href="#student-life" class="dropdown-toggle" data-toggle="dropdown">
+                <span aria-hidden="true" class="icon icon-food">&#x20;&#x20;</span>
+                Living <b class="caret"></b>
+              </a>
               <ul class="dropdown-menu">
                 <li><a href="http://www.byui.edu/activities">Activities</a></li>
                 <li><a href="http://www.byui.edu/student-honor-office">Honor Code</a></li>
@@ -95,7 +104,10 @@
                 </ul>
             </li>
             <li class="dropdown">
-              <a href="#services" class="dropdown-toggle" data-toggle="dropdown"><span aria-hidden="true" class="icon icon-bell-2">&nbsp;&nbsp;</span>Services <b class="caret"></b></a>
+              <a href="#services" class="dropdown-toggle" data-toggle="dropdown">
+                <span aria-hidden="true" class="icon icon-bell-2">&#x20;&#x20;</span>
+                Services <b class="caret"></b>
+              </a>
               <ul class="dropdown-menu">
                 <li><a href="http://www.byui.edu/ask/live-chat/?cid=hli:109">Ask BYUI</a></li>
                 <li><a href="http://www.byui.edu/information-technology">Technical Help</a></li>
@@ -109,7 +121,10 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#find" class="dropdown-toggle" data-toggle="dropdown"><span aria-hidden="true" class="icon icon-cursor">&nbsp;&nbsp;</span>Find <b class="caret"></b></a>
+              <a href="#find" class="dropdown-toggle" data-toggle="dropdown">
+                <span aria-hidden="true" class="icon icon-cursor">&#x20;&#x20;</span>
+                Find <b class="caret"></b>
+              </a>
               <ul class="dropdown-menu">
                 <li><a href="http://www.byui.edu/directories/">A-Z Directory</a></li>
                 <li><a href="https://web.byui.edu/BulletinBoard">Bulletin Board</a></li>
@@ -121,14 +136,22 @@
           <div class="navbar-right">
             <a href="#" data-toggle="dropdown" class="sign-in btn btn-primary navbar-btn">Sign In</a>
           </div>
-          <form role="search" class="navbar-form navbar-right form-horizontal container visible-xs visible-sm visible-md">
-            <div class="search input-group">
-              <input type="text" class="form-control" placeholder="Search BYU-I">
-              <span class="input-group-btn">
-              <button type="submit" class="btn btn-success"><span aria-hidden="true" class="icon icon-magnifying-glass"></span><span class="sr-only">Go</span></button>
-              </span>
-            </div>
-          </form>
+          <form method="get" action="http://search.byui.edu/search?" _lpchecked="1" role="search" class="desktop-search form-horizontal hidden-xl hidden-lg hidden-ml col-sm-4 row">
+          <div class="search input-group">
+            <input type="text" class="form-control" name="q" placeholder="Search" alt="Search the BYU-I website" />
+            <span class="input-group-btn">
+              <button type="submit" class="btn btn-success">
+                <span aria-hidden="true" class="icon icon-magnifying-glass"></span>
+                <span class="sr-only">Go</span>
+              </button>
+            </span>
+            <input type="hidden" name="site" value="default_collection"/>
+            <input type="hidden" name="client" value="byui_frontend"/>
+            <input type="hidden" name="output" value="xml_no_dtd"/>
+            <input type="hidden" name="proxystylesheet" value="byui_frontend"/>
+            <input type="hidden" name="proxyreload" value="0"/>
+          </div>
+        </form>
         </div><!--/.navbar-collapse -->
       </div>
       
@@ -136,14 +159,26 @@
 
     <div class="jumbotron homepage-jumbotron">
       <div class="container">
-      	<a id="home-logo" href="http://www.byui.edu/?cid=hli:112"><img src="/images/byuilogo.png" alt="Brigham Young University Logo" height="41" width="70" /></a>
-       <!--  <h1 class="page-title col-sm-8 row">Brigham Young University - Idaho</h1> -->
-        <form role="search" class="desktop-search form-horizontal hidden-xs hidden-sm hidden-md col-sm-4 row">
-          <div class="search input-group">
-            <input type="text" class="form-control" placeholder="Search">
-            <span class="input-group-btn">
-              <button type="submit" class="btn btn-success"><span aria-hidden="true" class="icon icon-magnifying-glass"></span><span class="sr-only">Go</span></button>
+        <a class="site-logo navbar-brand" href="/" title="BYU-Idaho">
+            <span aria-hidden="true" class="icon icon-byui-logo">
+              <span class="sr-only">BYU-Idaho</span>
             </span>
+          </a>
+       <!--  <h1 class="page-title col-sm-8 row">Brigham Young University - Idaho</h1> -->
+        <form method="get" action="http://search.byui.edu/search?" _lpchecked="1" role="search" class="desktop-search form-horizontal hidden-xs hidden-sm hidden-md col-sm-4 row">
+          <div class="search input-group">
+            <input type="text" class="form-control" name="q" placeholder="Search" alt="Search the BYU-I website" />
+            <span class="input-group-btn">
+              <button type="submit" class="btn btn-success">
+                <span aria-hidden="true" class="icon icon-magnifying-glass"></span>
+                <span class="sr-only">Go</span>
+              </button>
+            </span>
+            <input type="hidden" name="site" value="default_collection"/>
+            <input type="hidden" name="client" value="byui_frontend"/>
+            <input type="hidden" name="output" value="xml_no_dtd"/>
+            <input type="hidden" name="proxystylesheet" value="byui_frontend"/>
+            <input type="hidden" name="proxyreload" value="0"/>
           </div>
         </form>
       </div>
