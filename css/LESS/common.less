@@ -15,14 +15,11 @@
 
 /**** BREADCRUMB ****/
 #breadcrumbs {
-	font-size: 11px;
-	padding: 11px 13px 6px;
-	margin: 18px 0 20px;
-	background-color: #eee;
+	font-size: 14px;
+	margin: 20px 0;
 	clear:both;
 	.rounded-corners;
 	min-height:20px;
-	width: 924px;
 	a {
 		color: @byui_med_blue;
 		display: inline;
@@ -86,6 +83,7 @@ input.local_search_button:hover {
 
 /******** ACCORDION NAVIGATION ********/
 #accordion_control {
+	display: none;
 	background: #555;
 	height: 16px;
 	padding: 3px 0 0 0;
@@ -97,7 +95,6 @@ input.local_search_button:hover {
 	float: right;
 	padding: 0 10px;
 	color: silver;
-	font-size: 9px;
 }
 .ie6 .collapse,
 .ie7 .collapse,
@@ -111,12 +108,10 @@ input.local_search_button:hover {
 }
 .folder .expander {
 	position: absolute;
-	top: -5px;
-	right: 5px;
 	margin: 0;
 	padding: 12px;
-	width: 15px;
-	height: 15px;
+	width: 30px;
+	height: 30px; 
 	text-indent: -99999px;
 	background: url(../images/gray-arrow.png) no-repeat;
 	background-position: 12px 12px;
@@ -129,7 +124,7 @@ input.local_search_button:hover {
 .folder > .expander{
 	padding-top: 12px;
 	top: 0px;
-	right: 0px;
+	right: 13px;
 	background: url(../images/white-arrow.png) no-repeat;
 	background-position: 12px 12px;
 }
@@ -332,15 +327,16 @@ input.local_search_button:hover {
 	margin: 0px 0px 10px 0px;
 	margin: 0px 0px 0px 0px;
 	padding: 0 0 16px;
-	color: #326ba9;
+	color: #333;
 	background-color: white;
 	border-bottom: 1px solid #666;
 }
 #page_title h2 {
-	color: #326ba9;
+	.serif;
+	color: #333;
 	margin: 0;
 	padding: 0;
-	font-size: 26px;
+	font-size: 32px;
 	font-weight: bold;
 	line-height: 1.2em;
 	*height: 20px;
@@ -363,7 +359,7 @@ h4.sub_title {
 	padding: 11px 13px 11px;
 	margin: 0px;
 	letter-spacing: 0.1em;
-	background: #326BA9;
+	background: @byui_blue;
 	-webkit-border-radius: 4px 4px 0 0;
 	-moz-border-radius: 4px 4px 0 0;
 	-ms-border-radius: 4px 4px 0 0;
@@ -412,7 +408,7 @@ h2.box_header {
 	width: 490px;
 	right: -453px;
     height: 145px;
-	background: #326ba9;
+	background: @byui_blue;
 	-webkit-transition-duration: 0.5s;
 	-moz-transition-duration: 0.5s;
 	-o-transition-duration: 0.5s;
@@ -452,7 +448,7 @@ h2.box_header {
 	background: #fff;
     border-width: 1px;
     border-style: solid;
-    border-color: #326ba9;
+    border-color: @byui_blue;
 	width: 400px;
     height: 143px;
 	padding: 25px;
@@ -512,7 +508,7 @@ noindex:-o-prefocus, #slideout2 {
 	width: 485px;
 	right: -450px;
     height: 145px;
-	background: #326ba9;
+	background: @byui_blue;
 	-webkit-transition-duration: 0.5s;
 	-moz-transition-duration: 0.5s;
 	-o-transition-duration: 0.5s;
