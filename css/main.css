@@ -1422,6 +1422,9 @@ nav li {
   left: -2px;
   margin-bottom: -26px;
 }
+.jumbotron.homepage-jumbotron .site-logo:hover {
+  color: #aaa;
+}
 /******** FOOTER ********/
 .global-footer a {
   color: #fff;
