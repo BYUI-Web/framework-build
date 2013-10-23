@@ -1,5 +1,6 @@
 name: BYU-Idaho Front-End Framework
 destination: ./../generated-framework
+baseurl: '/generated-framework'
 markdown: redcarpet
 pygments: true
 exclude: ['deprecated', 'documentation', 'LESS', 'css/LESS', 'css/LESS/', 'css/LESS/*']

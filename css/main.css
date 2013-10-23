@@ -95,6 +95,7 @@ section {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
 }
 article,
 aside,
@@ -1367,6 +1368,9 @@ button {
   max-width: 100%;
   height: auto;
 }
+.collapse {
+  float: none;
+}
 #body_wrapper {
   overflow: auto;
 }
@@ -1386,6 +1390,7 @@ nav li {
 /******** HEADER ********/
 .sign-in {
   margin-right: 0;
+  color: #fff !important;
 }
 #home-logo {
   float: left;
@@ -1412,15 +1417,9 @@ nav li {
 }
 .jumbotron.homepage-jumbotron {
   margin-bottom: 0;
-  position: relative;
 }
 .jumbotron.homepage-jumbotron .site-logo {
   color: #fff;
-  font-size: 75px;
-  position: relative;
-  top: -14px;
-  left: -2px;
-  margin-bottom: -26px;
 }
 .jumbotron.homepage-jumbotron .site-logo:hover {
   color: #aaa;
@@ -1435,14 +1434,6 @@ nav li {
 }
 .global-footer a.btn {
   text-decoration: none;
-}
-.footer-social {
-  position: relative;
-  top: -8px;
-}
-.footer-social img {
-  position: relative;
-  top: 8px;
 }
 .footer-social li {
   height: 26px;
@@ -1477,7 +1468,6 @@ nav li {
 /**************** END GLOBAL CSS RULES [HEADER/FOOTER] ******************/
 /*GLOBAL END*/
 /* COMMON [contains all css elements that are common among many or most pagetypes] */
-/*COMMON BEGIN*/
 /**************** START COMMON ELEMENTS ***********************/
 /*                                                            */
 /*      Common elements are those elements that appear        */
@@ -1581,7 +1571,6 @@ input.local_search_button:hover {
   cursor: pointer;
 }
 .collapse {
-  float: right;
   padding: 0 10px;
   color: silver;
 }
@@ -3042,7 +3031,7 @@ a.message_title_block {
   max-width: 100%;
 }
 /**************** END COMMON ELEMENTS ****************/
-/*COMMON END*//* IMPORT ADDITIONAL GLOBAL/COMMON STYLESHEETS */
+/* IMPORT ADDITIONAL GLOBAL/COMMON STYLESHEETS */
 /* TYPOGRAPHY [contains all typography-related styles] */
 /*TYPOGRAPHY CSS FOR BODY COPY AREAS*/
 /*CONTENT AREA TYPOGRAPHY STYLES*/
