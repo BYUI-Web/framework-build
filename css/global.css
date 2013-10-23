@@ -6815,4 +6815,5 @@ body {
   text-indent: -9999px;
   height: 125px;
   background: url(../images/lds-logo.png) no-repeat center;
+  background-size: 250px 125px;
 }
