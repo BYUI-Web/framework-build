@@ -1389,16 +1389,11 @@ nav li {
 }
 /******** HEADER ********/
 .sign-in {
-  margin-right: 0;
+  margin-right: -20px;
   color: #fff !important;
 }
-#home-logo {
-  float: left;
-  padding-right: 20px;
-  padding-left: 13px;
-  margin-bottom: -10px;
-  position: relative;
-  top: 2px;
+.site-logo {
+  color: #fff !important;
 }
 .page-title {
   border-left: 1px solid #eaeaea;
@@ -1410,7 +1405,7 @@ nav li {
   padding: 0;
   margin-right: 0;
   position: relative;
-  top: -2px;
+  top: 9px;
 }
 .search input {
   margin: 0;
@@ -1425,6 +1420,9 @@ nav li {
   color: #aaa;
 }
 /******** FOOTER ********/
+.global-footer {
+  color: #fff;
+}
 .global-footer a {
   color: #fff;
   text-decoration: underline;
@@ -1443,13 +1441,6 @@ nav li {
 }
 .church-branding p {
   margin: 0;
-}
-.church-branding a {
-  color: #ccc;
-  text-decoration: none;
-}
-.church-branding a:hover {
-  color: #fff;
 }
 #lds_church_link {
   background: url('../images/foot/footer_sprite.png') no-repeat;
@@ -1572,7 +1563,6 @@ input.local_search_button:hover {
 }
 .collapse {
   padding: 0 10px;
-  color: silver;
 }
 .ie6 .collapse,
 .ie7 .collapse,
