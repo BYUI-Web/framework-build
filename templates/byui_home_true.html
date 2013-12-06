@@ -4,59 +4,64 @@ page-type: Home
 ---
 
 <section id="main_content">
-
-    <div id="cycle_gallery"> 
-        
-        <div id="cycle1" class="fade"><!-- You can set the type of transition you want by giving id 'cycle' a class name of a valid transition (default is fade).  blindX, blindY,  blindZ, cover, curtainX, curtainY, fade, fadeZoom, growX, growY, scrollUp, scrollDown, scrollLeft, scrollRight, scrollHorz, scrollVert, shuffle, slideX, slideY, toss, turnUp, turnDown, turnLeft, turnRight, uncover, wipe, zoom -->
-            
-            <div id="frame1" class="image_rotator">
-                <a href="#"><img class="home_image" src="/images/byui_home/test_bkg1.jpg" width="950" width="348" alt="image alt text"></a>
+    <div id="cycle_gallery">
+        <div id="cycle1">
+            <div id="frame1" class="image_rotator" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 4; opacity: 0; width: 948px; height: 302px;">
+                <a href="http://www.byui.edu/about/defining-aspects/foundations">
+                    <img alt="Ricks Building in the Fall." src="http://www.byui.edu/images/homepage-main/120606_NursingStudents_57-2.jpg" class="home_image">
+                </a>
             </div>
-            
-            <div id="frame2" class="image_rotator">
-                <a href="#"><img class="home_image" src="/images/byui_home/homepage_image2.jpg" width="950" height="348" alt="image alt text"></a>
+            <div id="frame2" class="image_rotator" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 5; opacity: 1; width: 948px; height: 302px;">
+                <a href="http://www.byui.edu/about/defining-aspects/personal-honor">
+                    <img alt="Students work together on the chalkboards in the Ricks Building." src="http://www.byui.edu/images/homepage-main/131123_untitled_058-469.jpg" class="home_image">
+                </a>
             </div>
-            
-            <div id="frame3" class="image_rotator">
-                <a href="#"><img class="home_image" src="/images/byui_home/homepage_image3.jpg" width="950" height="348" alt="image alt text"></a>
+            <div id="frame3" class="image_rotator" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 4; opacity: 0; width: 948px; height: 302px;">
+                <a href="http://www.byui.edu/about/defining-aspects/student-leadership-model">
+                    <img alt="Students talking outside the Romney Building" src="http://www.byui.edu/images/homepage-main/131031_Halloween_FallOutdoors_047.jpg" class="home_image">
+                </a>
+            </div>
+            <div id="frame4" class="image_rotator" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 4; opacity: 0; width: 948px; height: 302px;">
+                <a href="http://www.byui.edu/about/defining-aspects/student-activities-program">
+                    <img alt="A student studies in the morning light outside in the gardens." src="http://www.byui.edu/images/homepage-main/131205_untitled_061-34(0).jpg" class="home_image">
+                </a>
             </div>
         </div>
         <div id="top_overlay">
-            <div id="pillar_one_pulldown"><a href="">Innovative Teaching &amp; Learning</a></div>
-            <div id="pillar_two_pulldown"><a href="">Lifelong Spirituality &amp; Leadership</a></div>
+            <div id="pillar_one_pulldown"><a href="x34431.xml#LeftDisplay">Innovative Teaching &amp; Learning</a></div>
+            <div id="pillar_two_pulldown"><a href="x34431.xml#RightDisplay">Lifelong Spirituality &amp; Leadership</a></div>
             <div id="shadow"></div>
             <div id="pillar_center_message"><div id="piller_center_shadow_box"></div></div>
         </div>
-        <div id="cycle_control" >
-            <div id="cycle_prev" class="left_image" alt="left arrow"></div>
-            <div id="cycle_next" class="right_image" alt="right arrow"></div>
+        <div id="cycle_control">
+            <div id="cycle_prev" class="left_image"></div>
+            <div id="cycle_next" class="right_image"></div>
         </div>
-        
-
-    </div><!-- end of cycle gallery --> 
-        
+    </div>
 </section>
 
 
-<section id="bottom_region">
-    
+<section id="bottom_region" class="span-24">
     <div class="span-8">
         <div id="photo_album" class="message_block">
             <div class="message_block_top_nav">
-                <a href="http://www.byui.edu/photo-galleries" class="message_title_block">Photo Galleries</a>                    </div>
+                <a href="photo-galleries" class="message_title_block">Photo Galleries</a>
+                <div class="message_title_block">Photo Galleries</div>
+            </div>
             <div class="message_block_content">
-                <a href="http://www.byui.edu/photo-galleries"><img src="/images/byui_home/univ_message_photo.png" alt="ss"></a>
+                <a href="photo-galleries"><img src="http://www.byui.edu/images/university-communications/gallery-images/130626_AgDays_38c.jpg" alt="University Galleries"></a>
             </div>
         </div>
     </div>
-
     <div class="span-8">
-        <div class="message_block">
-            <div  id="university_message" class="message_block_top_nav">
-                <div><a href="#" class="message_title_block">University Message</a></div>
+        <div id="university_message" class="message_block span-8">
+            <div class="message_block_top_nav">
+                <div><a href="http://www.byui.edu/125-years/" class="message_title_block">University Message</a></div>
             </div>
-            <div class="message_block_content">
-                <a href="#"><img src="/images/byui_home/univ_message_photo2.png" alt="ss"></a>
+            <div class="message_block_content" style="">
+                <a href="http://www.byui.edu/125-years/">
+                    <img alt="" src="http://www.byui.edu/images/university-communications/125 Years.jpg">
+                </a>
             </div>
         </div>
     </div>
@@ -66,44 +71,147 @@ page-type: Home
                 <div><a href="http://www.byui.edu/newsroom" class="message_title_block">Newsroom</a></div>
             </div>
             <div class="message_block_content">
-            <!-- One news item will be chosen at random from a pool of the top newsroom article. data can be pulled from the article xml itself -->
-                <a href="#"><img id="news_block_img" alt="news img" src="/images/placeholders/newsroom/INL(thumb).jpg"></a>
-                <div id="news_block_content">
-                    <a id="news_title" href="#readmore">BYU-Idaho physics students benefit from collaborative relationship with INL</a>
-                    <a id="news_read_more" href="#readmore">Read More</a>
-                </div>
-                <span class="clearall"></span>
+                <img id="news_block_img" alt="Relief Society General President to speak at BYU-Idaho's fall commencement" src="http://www.byui.edu/images/Internal_Use/newsroom/WinterGrad(thumb).jpg"><div id="news_block_content">
+                <a id="news_title" href="newsroom/12-06-13-fall-2013-commencement">Relief Society General President to speak at BYU-Idaho's fall commencement</a>
+                <a id="news_read_more" href="newsroom/12-06-13-fall-2013-commencement">Read More</a>
             </div>
+            <span class="clearall"></span>
+            <span class="clearall"></span>
         </div>
-
-        <div id="events" class="message_block_short">
-            <div class="message_block_top_nav">
-                <div><a href="http://calendar.byui.edu/" class="message_title_block">Events</a></div>
-            </div>
-            <div class="message_block_content">
-                <ul class="fff">
-                    <li><span class="event_date">Jan&nbsp;05</span><a class="event_details" href="http://calendar.byui.edu//EventDetails.aspx?data=hHr80o3M7J6YEDinMMLRyu9GSp4U9Qt7nnCYUIzjPeyiUmEwSrPu3Q%3d%3d">First Year Forum</a></li>
-                    <li><span class="event_date">Jan&nbsp;06</span><a class="event_details" href="http://calendar.byui.edu//EventDetails.aspx?data=hHr80o3M7J6Pba6yZtCkIpHPxP%2blTZQlWkPZHLONoDJoPhCpN5l5Sg%3d%3d">President's Q&amp;A</a></li>
-                    <li><span class="event_date">Jan&nbsp;08</span><a href="http://calendar.byui.edu//EventDetails.aspx?data=hHr80o3M7J4aXfKWMFsNJMZRr4TsD%2buv7yKLUhvlj3jT2Rj6bNYjEw%3d%3d">Dance Party in the Hart</a></li>
-                    <li><span class="event_date">Jan&nbsp;10</span><a class="event_details" href="http://calendar.byui.edu//EventDetails.aspx?data=hHr80o3M7J4PCtUWhiMfzwML9XvmllBjPQ%2bCfPYy6OqBWvNnmdSW4w%3d%3d">Devotional</a></li>
-                    <li><span class="event_date">Jan&nbsp;14</span><a class="event_details" href="http://calendar.byui.edu//EventDetails.aspx?data=hHr80o3M7J6%2b0bTAGyY9gsqoYAOwDyLWLq2OK99%2fbueiMvsFr8sh7Q%3d%3d">Center Stage - Patrick McManus Comedy</a></li>
-                    <li><span class="event_date">Jan&nbsp;15</span><a class="event_details" href="http://calendar.byui.edu//EventDetails.aspx?data=hHr80o3M7J6%2b0bTAGyY9gsqoYAOwDyLWg8y6Hiryfj5qKiwj%2bFOtlg%3d%3d">Center Stage - Patrick McManus Comedy</a></li>
-                    <li><span class="event_date">Jan&nbsp;15</span><a class="event_details" href="http://calendar.byui.edu//EventDetails.aspx?data=hHr80o3M7J6KR437IiKNPcBAATnxl%2fsmZ5U1q7ntPEA%2fQUnk%2fyr2NA%3d%3d">Idaho Falls Youth Symphony</a></li>
-                    <li><span class="event_date">Jan&nbsp;17</span><a class="event_details" href="http://calendar.byui.edu//EventDetails.aspx?data=hHr80o3M7J4PCtUWhiMfzwML9XvmllBjYYEGJYJ0cysHk4aE9%2bFvTw%3d%3d">Devotional</a></li>
-                    <li><span class="event_date">Jan&nbsp;21</span><a class="event_details" href="http://calendar.byui.edu//EventDetails.aspx?data=hHr80o3M7J7Tb%2f7yfwcYhNBBNQG4uD2nAeT5uTuQZK2qyTgAAMa%2bbA%3d%3d">Talent Show</a></li>
-                    <li><span class="event_date">Jan&nbsp;24</span><a class="event_details"  href="http://calendar.byui.edu//EventDetails.aspx?data=hHr80o3M7J4PCtUWhiMfzwML9XvmllBj7xuLRtjb2%2fe3LpaIeSW%2bTA%3d%3d">Devotional</a></li>
-                    <li><span class="event_date">Jan&nbsp;26</span><a class="event_details" href="http://calendar.byui.edu//EventDetails.aspx?data=hHr80o3M7J5L%2fbODWmovoh03TaSexHNvhVaSSuPYpivFMoASoUsCxA%3d%3d">College of Business and Communication Summit Forum</a></li>
-                    <li><span class="event_date">Jan&nbsp;27</span><a class="event_details" href="http://calendar.byui.edu//EventDetails.aspx?data=hHr80o3M7J5AHKXvCXwjjpJbgZBXtbJXlHpQuImZ1F03KpyT42xgQQ%3d%3d">Middle School Honor Band</a></li>
-                </ul>
-            </div>
-        </div> 
-    </div>   
+    </div>
+    <div id="events" class="message_block_short">
+        <div class="message_block_top_nav">
+            <div><a href="http://calendar.byui.edu/" class="message_title_block">Calendar</a></div>
+        </div>
+        <div class="message_block_content">
+            <ul class="fff" style="position: relative; overflow: hidden; height: 100px;"><div class="scrollbar-pane" style="top: 0px; left: 0px; position: absolute; overflow: visible; height: auto;">
+                <li>
+                    <span class="event_date">Dec 06</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J6w39OzD0efrHs%2bRlGxg1Y1yBfy1sMPy9C5q6lWELREewNVF6UvZPSl">Ornament Extravaganza Frosting the Snowman</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 06</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5IZyAiBxXoINtUeUTLDz%2bUMKXGpUrMRU%2b11cytwpvcNRzE2IXH6gTR">Wrestling Clinic</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 06</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J7IusPxKoEfzrCsb9M%2bSsJ3wLusZEEdTOI3zRG9FXbFV%2fw80UCNs6II">Black Light Volleyball Tournament</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 06</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5yjnInUqmj0VWhumgv%2bK2i69JLsiMTXE%2fJ6o7VVHgoSkhhPacyIxq9">Life Skills Christmas Crafts</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 06</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J7erQrkNPB89znwYZy2so3PyFNV88by6zRHHBl26jQkB8clSbenTCDi">Academy of Comedy Shows</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 06</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J4urStIuavoPQEdYfzfqGjtz89SJf4KbUVckpsk06m6sq41JMq3emVc">Opera Scenes</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 06</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5o9PDdBoIzDzLDu5sycgwMEjJs7eoxHEtHO426ex25GYO69Bj5NWd4">Film Festival - 48 Hr.</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 06</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J7erQrkNPB89znwYZy2so3PyFNV88by6zR1xJ6zpLedUbJ6NJDQoocS">Academy of Comedy Shows</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 07</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J6w39OzD0efrHs%2bRlGxg1Y1yBfy1sMPy9DruWSBChC7dRgVWAK8VVdX">Ornament Extravaganza</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 07</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5IZyAiBxXoINtUeUTLDz%2bUrERvQvB5jKK7L4ioW419tqCqZEwE5usV">Wrestling Clinic</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 07</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J4urStIuavoPQEdYfzfqGjtz89SJf4KbUWuRmBQDkAr0nFeXvy%2fuosG">Opera Scenes</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 07</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J4Ike6st%2bNuHN5iFmJgPwf7PVNL8z6vW2FZaLdE4e4EzGzeALACYJeR">Basketball Championships - Women</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 07</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J4gVuRx6oFt1bNL%2fF8DYfIIFMojO19ewdPREfPrpxBkxq4dPMuRA6ry">Biggest Winner Closing Ceremonies</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 07</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J7M7YHfQggkNELw3Sy7u9z9tUfdJA3rcU7N%2fvdg%2fXzue6CFRtUzRUmY">A BYU-Idaho Christmas with Nathan Pacheco</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 08</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J45aQob8PN6eSodPW1C8DBVBKlVYjblt5Y7%2bqhQP0gbmxZIjZUtz88t">First Presidency Christmas Devotional</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 10</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5M4Mey9ac8bbW2KniIBA8BeY9DxIt3RmDja2Mm1p94kRqqmq%2bNuAgo">Spirit Team Showcase</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 11</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J7SxwcOo5HGJrCCagLa4lAVhTKKxCPI5b8wfpxsN2ricZ%2bM5YjgWdkO">Collegiate Singers, Women's Glee, Chamber Brass</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 12</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J6cn0UzV3YxoyYnUdq9HpzZqMnorYTnTVDcZRnKTF%2bgATWeNp%2bdEEfq">Student Organ Recital</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 12</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5HrBy9noM4T%2bZv9hP1%2bEBVScdJO59CSKtn91knjVxurzTjpqlJ27RG">Grad Night</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 12</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J4h8%2fuN1qczel3SbkVbEnTigjaAXyhjoyOFASHj%2bacMe3tZOAjkrteX">University Band</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 13</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J46v9snjj3UHMNNBcq4bzwWX3I1Docs0p6m5G7FBuuAwla1mSuOq8qr">Piano Ensemble</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 13</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J47ZqscC%2bb%2foHz4ln8gIGLCQfFMQhGHBiaChiHGy0zzt8KDl6s%2bCkAX">Walk in the Life of Christ</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 13</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J6PvxzIeJxNqyEbmu%2fB8XfFVCESQdquHRmXC%2bTaXrrVyjKwbAdLa%2ffz">Sketch Comedy (Humor Code)</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 13</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J41JNohBAXuk1WsjkInyngfg4V7yEL4RtPlt4tLGKUeu0tRiw6bXhTm">University Orchestra</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 13</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J6PvxzIeJxNqyEbmu%2fB8XfFVCESQdquHRnsgkmJeJYuVqtXFqf5Rcz2">Sketch Comedy (Humor Code)</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 14</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J4kD1zu4YLBJQDMZ0rhImrEUi4s7%2bTC5t2Zo8%2bur33321zidy1vD8Y6">Stand Up Comedy Show</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 14</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J4ED7tkIqRuyWNtZ2H0f31Ncc5lPCbW8qrSjLqpjzg5W%2bp959hbcKVY">Swing Workshop Competition</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 14</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J6umZ2pshrdVe5FWME45M3bxEydJZ3bLT2y%2fXThPGg%2fFNL7Ane1MrMF">Sound Alliance &amp; Vocal Union Swingin' Christmas</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 14</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J4kD1zu4YLBJQDMZ0rhImrEUi4s7%2bTC5t2VVwhVx0WwflB0GrWqUYwu">Stand Up Comedy Show</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 19</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J49Qo3kCPKXh2SGnEE64imttVjcQJik1Us%2fMPB2Z8Krd5mfxaL%2fJT8P">Grad Fest </a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 20</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J7FseCXy8DA0ge1qwuD%2f9pvgV41odNHcAm2XbCeVTOXLeS5cz72e19q">Fall Graduation Dinner</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 20</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5obzAhraIbHDfdEncb1NmHmqZm18GvI3zbRqivauaJfGh%2bfrSWIg6E">Commencement </a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 20</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5obzAhraIbHDfdEncb1NmHw87W8XlrJ9jEQ8jvm7yhO4yz7GnRH3WQ">Convocation - Agriculture and Life Sciences</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 20</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5obzAhraIbHDfdEncb1NmHibyzIkd%2fnkYq6T7bz%2fHXE6kVG5IEUxH4">Convocation - University and General Studies</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 20</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5obzAhraIbHDfdEncb1NmHzXzmCqTGh1DZ3TO%2b3XBROWWC9puCZCn4">Convocation - Language and Letters</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 20</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5obzAhraIbHDfdEncb1NmH4pbiQwZxUmJ8VgWxKB9w%2bfcFfP6frNgj">Convocation - Business and Communication</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 20</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5obzAhraIbHDfdEncb1NmHIerqIu1JsWeUuxbHdMNlf95oLt9ihwLw">Convocation - Performing and Visual Arts</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 20</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5obzAhraIbHDfdEncb1NmHToRI8kleoLMuCu9CwYtRZRwys9DskwgL">Convocation - Physical Sciences and Engineering</a>
+                </li>
+                <li>
+                    <span class="event_date">Dec 20</span><a class="event_details" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5obzAhraIbHDfdEncb1NmH5SQ%2f%2bTC02NvU52FFmaqRVDJBJw8TykdB">Convocation - Education and Human Development (Sociology, Psychology, Home and Family)</a>
+                </li>
+            </div><div class="scrollbar-handle-container" style="right: 0px; position: absolute; top: 18px; height: 64px;"><div class="scrollbar-handle" style="top: 0px; right: 0px; position: absolute; cursor: pointer; height: 30px;"></div></div><div class="scrollbar-handle-up" style="right: 0px; top: 0px; position: absolute; cursor: pointer;"></div><div class="scrollbar-handle-down" style="right: 0px; bottom: 0px; position: absolute; cursor: pointer;"></div></ul>
+        </div>
+    </div>
+</div>
 </section>
 
 <!-- *****  END CONTENT AREA  ***** -->
 <span class="clearall"></span>
 
 <!-- Page-Specific Scripts -->
-<script src="/js/libs/jquery.scroll.min.js"></script>
-<script src="/js/libs/jquery.cycle.all.js"></script>
-<script src="/js/mylibs/home.js"></script>
+<script src="http://www.byui.edu/prebuilt/stylenew/js/libs/jquery.scroll.min.js"></script>
+<script src="http://www.byui.edu/prebuilt/stylenew/js/libs/jquery.cycle.all.js"></script>
+<script src="http://www.byui.edu/prebuilt/stylenew/js/mylibs/home.js"></script>
