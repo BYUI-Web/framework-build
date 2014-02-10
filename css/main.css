@@ -1573,8 +1573,8 @@ input.local_search_button:hover {
   position: absolute;
   margin: 0;
   padding: 12px;
-  width: 30px;
-  height: 30px;
+  width: 39px;
+  height: 39px;
   text-indent: -99999px;
   background: url(../images/gray-arrow.png) no-repeat;
   background-position: 12px 12px;
@@ -1583,11 +1583,11 @@ input.local_search_button:hover {
   -moz-transition: -moz-transform 0.4s;
   -ms-transition: -ms-transform 0.4s;
   -o-transition: -o-transform 0.4s;
+  right: -5px;
 }
 .folder > .expander {
   padding-top: 12px;
   top: 0px;
-  right: 13px;
   background: url(../images/white-arrow.png) no-repeat;
   background-position: 12px 12px;
 }
